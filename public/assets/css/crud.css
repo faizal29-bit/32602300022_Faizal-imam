@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+header {
+    padding: 20px;
+    width: 100%;
+    background-color: tomato;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px 10px 10px;
+}
+
+.title h1 {
+    font-size: 24px;
+}
+
+.title a button {
+    background-color: rgb(74, 234, 74);
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.title a button:hover {
+    background-color: rgb(171, 241, 171);
+}
+
+.table {
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+
+.table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: left;
+}
+
+.table table th,
+.table table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.table table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.btn-delete {
+    background-color: rgb(255, 35, 35);
+    color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    background-color: rgb(255, 73, 73);
+}
+
+.btn-update {
+    background-color: rgb(35, 94, 255);
+    color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-update:hover {
+    background-color: rgb(80, 127, 255);
+}
+
+.form {
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input {
+    margin-bottom: 15px;
+}
+
+.input input {
+    width: 100%;
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button button {
+    background-color: rgb(31, 31, 221);
+    color: white;
+    padding: 8px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+.button button:hover {
+    background-color: rgb(66, 66, 255);
+}
